@@ -1,0 +1,12 @@
+certifi==2019.6.16
+cffi==1.12.3
+mkl-fft==1.0.12
+mkl-random==1.0.2
+numpy==1.16.4
+olefile==0.46
+Pillow==6.1.0
+pycparser==2.19
+PyYAML==5.1.2
+six==1.12.0
+torch==1.2.0
+torchvision==0.4.0a0+6b959ee
