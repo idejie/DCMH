@@ -8,24 +8,27 @@
 
 *you can download above from [google drive](https://drive.google.com/open?id=1j0OJyuqwA1mySI4tQO9CvK0CL4qIYw-8)*
 ### Requirements
+- Python 3.x or Anancoda 3.x
 
-included in `requirements.txt`
+included in `requirements.txt` and `conda_env.yml`, you install them by:
+```bash
+$ pip install -r requirments.txt
+# or
+$ conda create -f environment.yml 
 ```
-python==3.7
-pytorch==1.2
-```
+
 
 ### Usage
 ```bash
-python  main.py  train   --config  config/train.conf # for train
-python  main.py  test  --config  config/test.conf # for test
+$ python  main.py  train   --config  config/train.conf # for train
+$ python  main.py  test  --config  config/test.conf # for test
 ```
 ### Configuration
 - to add
 
 ### TO-DO
 
-- [ ] configuration
+- [x] configuration
 
 - [ ] data process
 
