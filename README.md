@@ -20,8 +20,8 @@ $ conda create -f environment.yml
 
 ### Usage
 ```bash
-$ python  main.py  train   --config  config/train.conf # for train
-$ python  main.py  test  --config  config/test.conf # for test
+$ python  main.py  train   --config  config/train.yml # for train
+$ python  main.py  test  --config  config/test.yml # for test
 ```
 ### Configuration
 - to add

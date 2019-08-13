@@ -4,7 +4,7 @@ import logging.config
 import os
 from yaml import load, SafeLoader
 
-LOGGING_CONF = 'configs/logging.yaml'
+LOGGING_CONF = 'configs/logging.yml'
 LOGGING_DIR = 'logging'
 
 
