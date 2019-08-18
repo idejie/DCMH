@@ -23,13 +23,10 @@ def get_args():
 
 
 def get_logger():
-    if not os.path.exists(LOGGING_DIR):
-        os.mkdir(LOGGING_DIR)
     os.makedirs(LOGGING_DIR, exist_ok=True)
     if not os.path.exists(LOGGING_CONF):
         logging.basicConfig(level=logging.WARNING,
                             format='%(asctime)s  %(filename)s[line:%(lineno)d] - %(levelname)s:  %(message)s')
-
         logger = logging.getLogger(__name__)
         logger.warning('No logging configuration file, use the default configuration.')
     else:

@@ -36,7 +36,7 @@ $ python  main.py  test  --config  config/test.yml # for test
 
 - [x] configuration
 
-- [ ] data process
+- [x] data process
 
 - [ ] base module
 

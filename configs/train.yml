@@ -1,3 +1,4 @@
 epoch: 10
 batch_size: 50
-data_dir: ~/data/MIRFLICKR-25K
+data_set: MIRFLICKR-25K # [ MIRFLICKR-25K, IAPR TC-12, NUS-WIDE ]
+data_dir: /home/dejie/data/mirflickr
